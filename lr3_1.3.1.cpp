@@ -2,7 +2,7 @@
 //Программа является учебной
 int main()
 {
-    int a,b,sum,raz;
+    int a,b,sum,raz,pr;
 cout <<"Enter a: \n";
 cin >>a;
 cout <<"Enter b: \n";
@@ -11,4 +11,7 @@ sum=a+b;
 cout<<"sum="<<sum<<"\n";
 raz=a-b;
 cout<<"raz="<<raz<<"\n";
+pr=a*b;
+cout<<"pr="<<pr<<"\n";
+
 }
