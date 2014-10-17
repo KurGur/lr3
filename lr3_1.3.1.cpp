@@ -3,6 +3,7 @@
 int main()
 {
     int a,b,sum,raz,pr;
+double del;
 cout <<"Enter a: \n";
 cin >>a;
 cout <<"Enter b: \n";
@@ -13,5 +14,6 @@ raz=a-b;
 cout<<"raz="<<raz<<"\n";
 pr=a*b;
 cout<<"pr="<<pr<<"\n";
-
+    del=a/b;
+    cout<<"del="<<del<<"\n";
 }
